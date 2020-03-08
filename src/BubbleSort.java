@@ -1,3 +1,4 @@
+package com.company;
 public class BubbleSort {
     public void burbuja (int [] array){
 
