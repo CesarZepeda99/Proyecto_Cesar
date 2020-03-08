@@ -1,9 +1,11 @@
 public class BubbleSort {
     public void burbuja (int [] array){
+
         int res;
         boolean cam=false;
         while(true)
-        {// cambios
+        {
+            cam=false;
             for (int i = 0; i < array.length; i++) {
                 if (array[i]<array[i-1]){
                     res = array[i];
@@ -13,6 +15,8 @@ public class BubbleSort {
 
                 }
             }
+            if(cam==false);
+            break;
         }
 
 
